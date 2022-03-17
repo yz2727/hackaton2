@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding:0;
+
+}
+  body{
+    font-family: Old English Text MT;
+    font-weight: 100;
+
+  }
+
+
+
+/* Ajustement du fond */
+.section-bvn{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 100;
+  left: 100;
+  opacity: 1;
+  overflow: hidden;
+}
+.section-bvn{
+  text-align: center;
+}
+
+.section-bvn video{
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  left:0;
+  z-index: -100;
+}
+
+/* Placement du texte */
+.liliput{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-160%,-70%);
+  text-align: left;
+  transition: 1s;
+}
+
+.brobdignag{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(60%,-70%);
+  text-align: right;
+  transition: 1s;
+
+}
+
+
+.liliput img{
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  
+}
+
+.brobdignag img{
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  
+}
+.liliput :hover{
+  transform: scale(1.3);
+  z-index: 2;
+}
+.brobdignag :hover{
+  transform: scale(1.3);
+  z-index: 2;
+}
+  
